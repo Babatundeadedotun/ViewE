@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lora;
+}
+.brand{
+    height: 13vh;
+    padding: 10px;
+    padding-left: 50px;
+}
+.navbar-nav{
+    margin-left: 150px !important;
+    gap: 20px;
+}
+.nav-btn{
+    background-color: #6D1830;
+    color: #FFFFFF;
+    margin-right: 140px !important;
+    border-radius: 3px !important;
+}
+
+.first-section{
+    background-color: #14394c;
+    display: flex;
+    gap: 90px;
+    padding: 60px;
+    height: 45vh;
+}
+.first-section-text{
+    color: #FFFFFF;
+    margin-left: 50px !important;
+}
+.first-section-img{
+    width: 30% !important;
+    margin-left: 420px !important;
+}
+
+.article-image{
+    width: 100% !important;
+}
+.article-head{
+    margin-bottom: 40px;
+}
+
+.third-section{
+    padding: 50px 100px;
+    margin-left: 20px;
+}
+.card-div{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.card{
+    border: none;
+}
+.avatars{
+    display: flex;
+    gap: 10px;
+}
+.avatar-img{
+    width: 15%;
+    height: 7vh;
+    margin-top: 10px;
+}
+.pagination{
+    width: 100% !important;
+}
+.page-link{
+    border: none;
+    width: 100% !important;
+    margin-right: 10px;
+    color: black;
+}
+#previous{
+    color: #6D1830 !important;
+}
+#next{
+    color: #6D1830 !important;
+}
+
+.fourth-section{
+    background-color: #6D1830;
+    color: #FFFFFF;
+    height: 40vh;
+    display: flex;
+}
+.fourth-section1{
+    padding: 70px;
+}
+.fourth-section2{
+    padding: 70px !important;
+}
+.email{
+    width: 150% !important;
+    margin-left: -10px !important;
+}
+.footer{
+    display: flex;
+    gap: 380px;
+}
+.footer1{
+    padding: 90px;
+
+}
+.footer-img{
+    width: 50px !important;
+}
+.footerlist{
+    list-style: none;
+    text-decoration: none !important;
+    display: flex;
+    gap: 35px;
+    margin-top: 30px !important;
+}
+.footerlists{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.footer2{
+    width: 100%;
+    padding: 90px;
+}
+.footer2-img{
+    width: 70% !important;
+}
+.footer2-text{
+    font-size: 18px !important;
+}
+.footer-icon{
+    padding: 20px;
+    margin-left: 70px;
+}
+.footer-icons{
+    margin-right: 10px;
+}
+.footer-2{
+    display: flex;
+    gap: 645px;
+}
+.term-poli{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.article{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:820px) {
+    .navbar-toggler{
+        margin-right: 90px;
+        width: 15%;
+        height: 8vh;
+    }
+    .first-section{
+        display: grid;
+        gap: 30px;
+        height: 25vh;
+    }
+    .first-section-img{
+        display: none;
+    }
+    .blog-head{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    .blog-para{
+        font-size: 34px;
+    }
+    .article{
+        font-size: 60px;
+    }
+    .card-div{
+        display: grid;
+        gap: 30px;
+    }
+    .card{
+        width: 100% !important;
+        margin-left: -40px;
+    }
+    .card-img-top{
+        width: 110% !important;
+    }
+    .card-img-top1{
+        width: 119% !important;
+        margin-left: -10px;
+    }
+    .avatars{
+        display: flex;
+        gap: 10px;
+    }
+    .card-title{
+        font-size: 40px;
+    }
+    .card-text{
+        font-size: 33px;
+    }
+    .card-body1{
+        margin-top: 50px !important;
+    }
+    .avatar-text{
+        font-size: 30px;
+    }
+    .page-link{
+        font-size: 23px;
+        width: 150% !important;
+    }
+    .fourth-section{
+        height: 35vh;
+        display: grid;
+    }
+    .email{
+        margin-top: -100px;
+        width: 100% !important;
+    }
+    .form-control{
+        width: 70% !important;
+        height: 5vh;
+        font-size: 20px;
+    }
+    .subscribe-head{
+        font-size: 40px;
+    }
+    .subscribe-para{
+        font-size: 30px;
+    }
+    .subscribe{
+        height: 5vh;
+        font-size: 20px;
+        width: 120% !important;
+    }
+    .footer{
+        display: grid;
+        gap: 10px;
+    }
+    .footer-img{
+        width: 15% !important;
+    }
+    .footerlist{
+        display: flex;
+        gap: 35px;
+    }
+    .footerlists{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .footer2{
+        margin-top: -90px;
+    }
+    .footer2-text{
+        font-size: 30px !important;
+    }
+    .footer2-img{
+        width: 45% !important;
+    }
+    .footer-2{
+        display: grid;
+        gap: 35px;
+    }
+    .footer-icons{
+        font-size: 40px;
+        margin-right: 30px;
+    }
+    .term-poli{
+        display: flex;
+        gap: 30px;
+        font-size: 35px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:414px) {
+    .navbar-toggler{
+        margin-right: -180px;
+        width: 25%;
+    }
+    .first-section{
+        width: 155% !important;
+        height: 35vh;
+    }
+    .blog-para{
+        font-size: 30px;
+    }
+    .third-section{
+        width: 150% !important;
+    }
+    .page-item{
+        width:100% !important;
+        margin-left: -20px;
+        font-size: 20px !important;
+    }
+    .fourth-section{
+        width: 155% !important;
+        height: 50vh;
+    }
+    .fourth-section1{
+        width: 100% !important;
+    }
+    .subscribe-head{
+        font-size: 33px;
+    }
+    .subscribe-para{
+        font-size: 33px;
+    }
+    .form-control{
+        height: 7vh;
+    }
+    .email{
+        width: 100% !important;
+    }
+    .subscribe{
+        height: 7vh;
+        width: 100% !important;
+    }
+    .term-poli{
+        width: 120% !important;
+    }
+}
+@media screen and (max-width:390px) {
+    .first-section{
+        width: 164% !important;
+    }
+    .third-section{
+        width: 160% !important;
+    }
+    .card{
+        width: 95% !important;
+    }
+    .card-body{
+        width: 120% !important;
+    }
+    .fourth-section{
+        width: 164% !important;
+    }
+    .footer-icon{
+        width: 130% !important;
+    }
+}
+@media screen and (max-width:376px){
+    .first-section{
+        height: 50vh;
+        width: 168% !important;
+    }
+    .third-section{
+        width: 165% !important;
+    }
+    .card{
+        width: 100% !important;
+    }
+    .avatar-img{
+        height: 9vh;
+    }
+    .fourth-section{
+        height: 60vh;
+    }
+    .term-poli{
+        width: 125% !important;
+    }
+}
+@media screen and (max-width:280px) {
+    .brand{
+        margin-left: 20px !important;
+    }
+    .navbar-toggler{
+        margin-right: -190px;
+    }
+    .navbar{
+        width: 150% !important;
+    }
+    .first-section{
+        width: 228% !important;
+    }
+    .blog-para{
+        font-size: 33px;
+        width: 108% !important;
+    }
+    .first-section-text{
+        margin-left: 22px !important;
+    }
+    .third-section{
+        width: 220% !important;
+    }
+    .card-body{
+        width: 125% !important;
+    }
+    .card-title{
+        font-size: 45px;
+    }
+    .card-text{
+        font-size: 39px;
+    }
+    .avatar-text{
+        font-size: 33px;
+    }
+    .fourth-section{
+        width: 225% !important;
+    }
+    .form-control{
+        height: 8vh;
+    }
+    .email{
+        font-size: 30px;
+    }
+    .subscribe{
+        height: 8vh;
+        font-size: 30px;
+    }
+    .term-poli{
+        width: 165% !important;
+    }
+}

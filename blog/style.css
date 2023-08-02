@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand{
+    height: 13vh;
+    padding: 10px;
+    padding-left: 50px;
+}
+.navbar-nav{
+    margin-left: 150px !important;
+    gap: 20px;
+}
+.nav-btn{
+    background-color: #6D1830;
+    color: #FFFFFF;
+    margin-right: 140px !important;
+    border-radius: 3px !important;
+}
+
+.first-section{
+    background-color: #14394c;
+    display: flex;
+    gap: 90px;
+    padding: 60px;
+    height: 45vh;
+}
+.first-section-text{
+    color: #FFFFFF;
+    margin-left: 50px !important;
+}
+.first-section-img{
+    width: 30% !important;
+    margin-left: 420px !important;
+}
+.second-section{
+    padding:50px 100px;
+}
+.article-image{
+    width: 100% !important;
+}
+.article-head{
+    color: #6D1830;
+    margin-bottom: 40px;
+}
+.third-section{
+    padding: 50px 100px;
+    margin-left: 20px;
+}
+.card-div{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    border: none;
+}
+.avatars{
+    display: flex;
+    gap: 10px;
+}
+.avatar-img{
+    width: 15%;
+    height: 7vh;
+    margin-top: 10px;
+}
+.pagination{
+    width: 100% !important;
+}
+.page-link{
+    border: none;
+    width: 100% !important;
+    margin-right: 10px;
+    color: black;
+}
+#previous{
+    color: #6D1830 !important;
+}
+#next{
+    color: #6D1830 !important;
+}
+
+.fourth-section{
+    background-color: #6D1830;
+    color: #FFFFFF;
+    height: 40vh;
+    display: flex;
+}
+.fourth-section1{
+    padding: 70px;
+}
+.fourth-section2{
+    padding: 70px !important;
+}
+.email{
+    width: 150% !important;
+    margin-left: -10px !important;
+}
+.footer{
+    display: flex;
+    gap: 380px;
+}
+.footer1{
+    padding: 90px;
+
+}
+.footer-img{
+    width: 50px !important;
+}
+.footerlist{
+    list-style: none;
+    text-decoration: none !important;
+    display: flex;
+    gap: 35px;
+    margin-top: 30px !important;
+}
+.footerlists{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.footer2{
+    width: 100%;
+    padding: 90px;
+}
+.footer2-img{
+    width: 70% !important;
+}
+.footer2-text{
+    font-size: 18px !important;
+}
+.footer-icon{
+    padding: 20px;
+    margin-left: 70px;
+}
+.footer-icons{
+    margin-right: 10px;
+}
+.footer-2{
+    display: flex;
+    gap: 645px;
+}
+.term-poli{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.term-poli-link{
+    text-decoration: none;
+    color: black;
+}
+.article{
+    text-decoration: none;
+    color: #6D1830;
+}
+@media screen and (min-width:1024px) {
+    .blog-card{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:820px) {
+    .brand{
+        width: 75% !important;
+        height: 10vh;
+    }
+    .navbar-toggler{
+        margin-right: 100px;
+        width: 12%;
+        height: 7vh;
+    }
+    .first-section{
+        display: grid;
+        height: 20vh;
+    }
+    .first-section-img{
+        display: none;
+    }
+    .blog-head{
+        font-size: 50px;
+    }
+    .blog-para{
+        font-size: 30px;
+    }
+    .blog-card{
+        width: 90%;
+    }
+
+    .article{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .article-image{
+        display: none;
+    }
+    .card-div{
+        display: grid;
+        gap: 15px;
+    }
+    .card{
+        width: 100% !important;
+        margin-left: -30px;
+        margin-bottom: 20px;
+    }
+    .card-title{
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    .card-text{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .avatars{
+        display: flex;
+        gap: 25px;
+    }
+    .avatar-text{
+        font-size: 30px;
+    }
+    .card-2-text{
+        margin-top: 40px !important;
+        margin-left: -30px;
+    }
+    .card-2{
+        margin-left: -5px !important;
+    }
+    .card-img1{
+        width: 112% !important;
+    }
+    .pagination{
+        width: 100% !important;
+    }
+    .page-link{
+        font-size: 18px !important;
+    }
+    .fourth-section{
+        height: 30vh;
+        display: grid;
+    }
+    .email{
+        width: 80% !important;
+        margin-top: -90px !important;
+        height: 5vh;
+    }
+    .form-control{
+        font-size: 25px;
+    }
+    .subscribe{
+        height: 5vh;
+        width: 150% !important;
+        font-size: 20px;
+    }
+    .subscribe-head{
+        font-size: 33px;
+    }
+    .subscribe-para{
+        font-size: 23px
+    }
+    .footer{
+        display: grid;
+        gap: 5px;
+    }
+    .footer-img{
+        width: 15% !important;
+    }
+    .footerlist{
+        display: flex;
+        gap: 35px;
+    }
+    .footerlists{
+        font-size: 25px;
+    }
+    .footer2{
+        margin-top: -120px;
+        width:100%;
+        padding: 90px;
+    }
+    .footer2-text{
+        font-size: 25px !important;
+    }
+    .footer2-img{
+        width: 40% !important;
+    }
+    .hr{
+        margin-top: -50px;
+    }
+    .footer-2{
+        display: grid;
+        gap: 25px;
+    }
+    .footer-icons{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    .term-poli{
+        display: flex;
+        gap: 40px;
+        margin-left: 90px;
+        font-size: 30px;
+    }
+    .term-poli-link{
+        text-decoration: none;
+        color: black;
+    }
+  
+}
+@media screen and (max-width:414px) {
+    .navbar{
+        width: 100% !important;
+        height: 20vh !important;
+    }
+    .brand{
+        width: 95% !important;
+        height: 12vh;
+        margin-left: 5px !important;
+    }
+
+    .navbar-toggler{
+        margin-right: -190px;
+        width: 20% !important;
+        color: #FFFFFF;
+    }
+    .first-section{
+        width: 168% !important;
+        height: 40vh;
+    }
+    .first-section-text{
+        padding: 50px 0px;
+        margin-left: 14px !important;
+    }
+    .blog-head{
+        font-size: 60px;
+    }
+    .blog-para{
+        font-size: 30px;
+        width: 98% !important;
+    }
+    .second-section{
+        width: 168% !important;
+        margin-left: -25px !important;
+    }
+    .article{
+        width: 100% !important;
+    }
+    .blog-card{
+        width: 110% !important;
+        border: 2px solid #D7D1CA;
+        padding: 30px;
+        border-radius: 20px;
+    }
+    hr{
+        width: 168% !important;
+    }
+    .third-section{
+        width: 165% !important;
+    }
+    .pagination{
+        width: 130% !important;
+        margin-left: -50px !important;
+    }
+    .page-item{
+        font-size: 60px !important;
+    }
+    .fourth-section{
+        width: 168% !important;
+        height: 45vh;
+    }
+    .subscribe-head{
+        font-size: 35px;
+    }
+    .subscribe-para{
+        font-size: 30px;
+    }
+    .form-control{
+        font-size: 30px !important;
+        width: 190% !important;
+    }
+    .email{
+        width: 90% !important;
+        height: 8vh;
+    }
+    .subscribe{
+        height: 8vh;
+        width: 100% !important;
+        font-size: 28px;
+    }
+    .footerlists{
+        font-size: 30px;
+    }
+    .footer2-text{
+        font-size: 30px !important;
+    }
+    .footer2-img{
+        width: 60% !important;
+    }
+    .term-poli{
+        width: 120% !important;
+        font-size: 35px;
+    }
+    .term-poli-link{
+        text-decoration: none;
+        color: black;
+    }
+}
+@media screen and (max-width:390px) {
+    .first-section{
+        width: 172% !important;
+    }
+    .third-section{
+        width: 168% !important;
+    }
+    .pagination{
+        width: 140% !important;
+        margin-left: -90px !important;
+    }
+    .page-item{
+        font-size: 25px;
+    }
+    .fourth-section{
+        width: 172% !important;
+    }
+    .email{
+        width: 100% !important;
+    }
+    .footer-icon{
+        width: 150% !important;
+    }
+    .term-poli{
+        width: 150% !important;
+        font-size: 27px;
+    }
+    .term-poli-link{
+        text-decoration: none;
+        color: black;
+    }
+}
+@media screen and (max-width:376px) {
+    .first-section{
+        width: 178% !important;
+        height: 60vh;
+    }
+    .fourth-section{
+        height: 60vh;
+        width: 178% !important;
+    }
+}
+@media screen and (max-width:280px) {
+    .navbar{
+        width: 150% !important;
+    }
+    .brand{
+        width: 105% !important;
+        height: 15vh;
+    }
+    .navbar-toggler{
+        margin-left: 210px;
+    }
+    .first-section{
+        width: 240% !important;
+    }
+    .second-section{
+        width: 235% !important;
+    }
+    hr{
+        width: 235% !important;
+    }
+    .third-section{
+        width: 235% !important;
+    }
+    .fourth-section{
+        width: 240% !important;
+    }
+}
